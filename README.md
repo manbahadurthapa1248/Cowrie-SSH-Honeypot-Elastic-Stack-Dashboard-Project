@@ -81,6 +81,11 @@ Modify SSH settings or Keep Default:
   listen_endpoints = tcp:2222:interface=0.0.0.0
   hostname = fake-linux
 ```
+If you want to use port fowarding from default cowrie ssh port: 2222 to port: 22, use the following command:
+
+```bash
+  sudo iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222
+```
 
 If you have Python 3.13+, sometimes cowrie executable is not found, so you will have to install more build dependencies, use:
 
@@ -104,11 +109,22 @@ b) If using Python3.13+ use following commands:
   cowrie-env/bin/cowrie restart  # To restart
   cowrie-env/bin cowrie stop  # To stop
 ```
+Check if cowrie is running
+
+```bash
+  ps aux | grep cowrie
+```
 
 Log files will be stored in:
 
 ```bash
   cowrie/var/log/cowrie/
+```
+
+You can also tail the logs of the cowrie using following command:
+
+```bash
+  tail -f ~/cowrie/var/log/cowrie/cowrie.log
 ```
 
 2\. Install Elasticsearch & Kibana
