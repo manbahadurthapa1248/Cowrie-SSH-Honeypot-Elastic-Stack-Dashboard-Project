@@ -236,14 +236,16 @@ This provides a complete intrusion monitoring and analysis environment.
 This section showcases the visual and JSON outputs generated from the Cowrie honeypot and analyzed through the **Elastic Stack**. Screenshots illustrate the log ingestion, filtering, and dashboard visualization, while JSON snippets represent the raw log data behind key events.
 
 1. Kibana UI Displaying Cowrie Logs (1074 Events)
+   
+   <img width="1920" height="919" alt="1" src="https://github.com/user-attachments/assets/08721ec3-0700-4e28-a313-923fd56ff753" />
 
-2. Source IPs Observed in Attacks (3 Unique IPs Including Localhost)
+3. Source IPs Observed in Attacks (3 Unique IPs Including Localhost)
 
-3. KQL Filter Applied: `src.ip = 127.0.0.1`
+4. KQL Filter Applied: `src.ip = 127.0.0.1`
 
-4. Table View – Failed Login Attempt
+5. Table View – Failed Login Attempt
 
-5. JSON Log for Failed Login Attempt
+6. JSON Log for Failed Login Attempt
 
 ```json
 {
