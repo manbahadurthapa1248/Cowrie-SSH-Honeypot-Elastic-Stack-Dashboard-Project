@@ -455,7 +455,7 @@ This section showcases the visual and JSON outputs generated from the Cowrie hon
 
 8. Dashboard View With KQL: `message.keyword : "*cmd*"`
 
-   <img width="1920" height="921" alt="6" src="https://github.com/user-attachments/assets/8397161b-445c-4712-8cc1-49c01ed245f0" />
+  <img width="1920" height="921" alt="6" src="https://github.com/user-attachments/assets/6b03c339-92c4-495a-9125-cfae622c5232" />
 
 9. JSON Log Example (Command Execution – e.g., `id`)
 
