@@ -239,13 +239,19 @@ This section showcases the visual and JSON outputs generated from the Cowrie hon
    
    <img width="1920" height="919" alt="1" src="https://github.com/user-attachments/assets/08721ec3-0700-4e28-a313-923fd56ff753" />
 
-3. Source IPs Observed in Attacks (3 Unique IPs Including Localhost)
+2. Source IPs Observed in Attacks (3 Unique IPs Including Localhost)
 
-4. KQL Filter Applied: `src.ip = 127.0.0.1`
+   <img width="1920" height="921" alt="2" src="https://github.com/user-attachments/assets/cc57632d-0d82-4673-84ca-bee0f10ae877" />
 
-5. Table View – Failed Login Attempt
+3. KQL Filter Applied: `src.ip = 127.0.0.1`
 
-6. JSON Log for Failed Login Attempt
+   <img width="1920" height="923" alt="3" src="https://github.com/user-attachments/assets/ac393195-3977-42fa-b2b7-d26e6be680f5" />
+
+4. Table View – Failed Login Attempt
+
+   <img width="540" height="826" alt="4" src="https://github.com/user-attachments/assets/9c921a15-9ff7-478d-b080-d3f32ba0e3d8" />
+
+5. JSON Log for Failed Login Attempt
 
 ```json
 {
@@ -345,6 +351,8 @@ This section showcases the visual and JSON outputs generated from the Cowrie hon
 ```
 
 6. Table View – Successful Login Attempt
+
+   <img width="539" height="825" alt="5" src="https://github.com/user-attachments/assets/a2413543-2722-4f29-a630-3fcf78bbaa84" />
 
 7. JSON Log for Successful Login Attempt
 
@@ -446,6 +454,8 @@ This section showcases the visual and JSON outputs generated from the Cowrie hon
 ```
 
 8. Dashboard View With KQL: `message.keyword : "*cmd*"`
+
+   <img width="1920" height="921" alt="6" src="https://github.com/user-attachments/assets/8397161b-445c-4712-8cc1-49c01ed245f0" />
 
 9. JSON Log Example (Command Execution – e.g., `id`)
 
