@@ -241,7 +241,7 @@ This section showcases the visual and JSON outputs generated from the Cowrie hon
 
 2. Source IPs Observed in Attacks (3 Unique IPs Including Localhost)
 
-   <img width="1920" height="921" alt="2" src="https://github.com/user-attachments/assets/cc57632d-0d82-4673-84ca-bee0f10ae877" />
+   <img width="1920" height="921" alt="2" src="https://github.com/user-attachments/assets/6ef045fb-ca74-48ab-8292-dbbcf4ebe74a" />
 
 3. KQL Filter Applied: `src.ip = 127.0.0.1`
 
