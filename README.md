@@ -5,7 +5,7 @@ A cybersecurity monitoring project that sets up an **SSH honeypot using Cowrie**
 
 This system captures brute-force attempts, commands executed by attackers, TTP patterns, malware downloads, and other SSH interaction logs, and forwards them into Kibana dashboards.
 
-   <img width="1024" height="1024" alt="Gemini_Generated_Image_h3yvdlh3yvdlh3yv" src="https://github.com/user-attachments/assets/5602a47f-a323-4c0a-8b87-dd0a2ff87673" />
+   <img width="1024" height="912" alt="Gemini_Generated_Image_h3yvdlh3yvdlh3yv" src="https://github.com/user-attachments/assets/526be7c4-063d-4e39-ad76-47f3d74b2d51" />
 
 📌 Features
 -----------
